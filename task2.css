@@ -1,0 +1,92 @@
+body{
+    background-image: url('Desert.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+fieldset{
+    margin: auto;
+    width:500px;
+    height: 500px;
+    background:whitesmoke;
+    border-radius: .5em;
+    border:solid 2px black;
+    margin-top: 100px;
+    
+
+}
+
+h1{
+    color: blue;
+    text-align: center;
+   
+}
+h2{
+    color: black;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    text-align: center;
+  margin: auto;
+    margin-bottom: 20px;
+   background:none;
+    height: 30px;
+    border-radius:5px ;
+
+border:solid 1px black;
+}
+.one{
+    margin-top:70px ;
+}
+.two{
+    background-color:aqua;
+    opacity: 0.7;
+    font-weight:bold ;
+}
+.three{
+    max-width:100px;
+    margin-right: 5px;
+    display: inline;
+
+}
+.four{
+    display: inline;
+  margin-left: 5px;
+}
+p{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.divv{
+    text-align: center;
+}
+
+ul {
+    opacity: 0.7;
+    list-style-type: none;
+    top: 50%;
+    width: 200px;
+    background-color: white;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+    position: absolute;
+    top:50%;
+      left:93.3%;
+      transform:translate(-50%,-50%);
+  }
+  ul li{
+      
+      margin-bottom: 40px;
+      text-align: center;
+  }
+  .lii{
+      margin-top:100px ;
+  }
+  a{
+      font-weight: bold;
+      text-decoration: none;
+  }
